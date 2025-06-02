@@ -4,11 +4,6 @@
   O tempo muda, a sua agenda não. Seu clima na palma da mão.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&style=flat-square" alt="Python">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square" alt="Status">
-</p>
-
 ---
 
 ## 📚 Descrição
@@ -38,7 +33,7 @@ O **Climao** é um projeto que fornece previsões do tempo para diversos locais,
 ---
 
 ## 👥 Integrantes do Projeto
-Beatriz Bonetti da Costa - 2402094
-Guilherme Alexandre da França -	2401723
-Matheus de Queiroz Mendanha -	2401758
-Tiago Genari Caldeira -	2401783
+- Beatriz Bonetti da Costa - 2402094
+- Guilherme Alexandre da França -	2401723
+- Matheus de Queiroz Mendanha -	2401758
+- Tiago Genari Caldeira -	2401783
