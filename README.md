@@ -1,7 +1,7 @@
 <h1 align="center">🌤️ Climao</h1>
 
 <p align="center">
-  Uma aplicação para exibir informações climáticas de diferentes locais de forma prática e intuitiva.
+  O tempo muda, a sua agenda não. Seu clima na palma da mão.
 </p>
 
 <p align="center">
@@ -32,14 +32,13 @@ O **Climao** é um projeto que fornece previsões do tempo para diversos locais,
 ## 👨‍💻 Tecnologias Utilizadas
 
 - **Python** 🐍
-- **Tkinter** 🖼️ (interface gráfica)
 - **APIs de Clima** 🌦️ (dados em tempo real)
 - **Git/GitHub** 🌟 (controle de versão e colaboração)
 
 ---
 
-## 💻 Como Executar
-
-1️⃣ Clone este repositório:
-```bash
-git clone https://github.com/beabone/climao-main.git
+## 👥 Integrantes do Projeto
+Beatriz Bonetti da Costa - 2402094
+Guilherme Alexandre da França -	2401723
+Matheus de Queiroz Mendanha -	2401758
+Tiago Genari Caldeira -	2401783
