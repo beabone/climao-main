@@ -1,0 +1,7 @@
+<resources>
+    <string name="email_hint">E-mail</string>
+    <string name="senha_hint">Senha</string>
+    <string name="login_button">Login</string>
+    <string name="cadastro_button">Cadastro</string>
+    <string name="app_name">IMPACTA APP LOGIN</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1FCFF">
+
+    <EditText
+        android:id="@+id/editCidade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite a cidade"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:backgroundTint="#FDCC00"
+        android:textColor="#1CA2E8"
+        app:layout_constraintTop_toBottomOf="@id/editCidade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txtCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1CA2E8"
+        app:layout_constraintTop_toBottomOf="@id/btnBuscar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/txtTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24°C"
+        android:textSize="48sp"
+        android:textColor="#FDCC00"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/txtCidade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtClima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clima"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/txtTemperatura"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/txtUmidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umidade"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/txtClima"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txtVento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vento"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/txtUmidade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1CA2E8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

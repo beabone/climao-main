@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cor_fundo">#4CAF50</color> <!-- Verde -->
+    <color name="cor_botao">#6200EE</color> <!-- Roxo -->
+    <color name="cor_texto">#FFFFFF</color> <!-- Branco -->
+</resources>
