@@ -26,7 +26,7 @@ O **Climao** é um projeto que fornece previsões do tempo para diversos locais,
 
 ## 👨‍💻 Tecnologias Utilizadas
 
-- **Python** 🐍
+- **Kotlin** 📱
 - **APIs de Clima** 🌦️ (dados em tempo real)
 - **Git/GitHub** 🌟 (controle de versão e colaboração)
 
