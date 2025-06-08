@@ -22,7 +22,7 @@
 
         <activity android:name=".MenuActivity" />
         <activity android:name=".PrevisaoActivity" />
-        <activity android:name=".IntegrantesActivity" />
+        <activity android:name=".SobreActivity" />
         <activity android:name=".ConfigActivity" />
 
 
